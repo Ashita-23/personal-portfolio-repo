@@ -1,0 +1,23 @@
+
+.skill-counter{
+height: auto;
+width: 99.8vw;
+border: 1px solid red;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: center;
+}
+
+.skill-heading{
+  font-size: 2rem;
+  color: #0652DD;
+  padding: 1rem 0.5rem;
+  /* border: 1px solid red; */
+
+}
+
+.skill-display{
+    border: 1px solid red;
+}
