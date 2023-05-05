@@ -1,0 +1,23 @@
+
+
+.footer-text-box{
+    border-top: 1px solid  #12161f;
+    background-color:#303952;
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.footer-text-box span {
+    color: white;
+    /* color: #0652DD; */
+}
+.heart-icone{
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0px 2px;
+    color: red;
+}
