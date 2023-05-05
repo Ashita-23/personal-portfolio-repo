@@ -1,6 +1,6 @@
 .home-outer{
     margin-top: -63px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -74,12 +74,29 @@ justify-content: center ;
     align-items: center;
     justify-content: center ;
     /* border: 1px solid green; */
+    padding: 1rem;
 }
 .home-btn{
+    margin: 0rem 1rem;
     outline: none;
     border: none;
+
     background-color: transparent;
-    font-size: 2rem;
+   
     color: rgb(3, 89, 202);
-    padding: 0.1rem 0.5rem;
+    /* padding: 0.1rem 0.4rem; */
 }
+
+.home-btns{
+    align-items: center;
+    font-size: 1.8rem;
+    padding: 0.4rem 0.5rem;
+    border: 1px solid transparent;
+        border-radius: 5px;
+        box-shadow: #04d1f5 0px 1px 4px 0px;
+    transition: 1s; }
+
+        .home-btns:hover{
+            box-shadow: none;
+            /* border: 1px solid #04d1f5; */
+        }
