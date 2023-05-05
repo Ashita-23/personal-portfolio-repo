@@ -1,8 +1,14 @@
 import React from "react" 
 import ReactDOM from "react-dom/client"
+import "/index.css"
+import Navigation from "./src/HeadCompos/NavCompo/Navigation"
+import Home from "./src/HeadCompos/HomeCompo/Home"
 
 const App = () =>{
-    return(<><h1>I did it!</h1></>)
+    return(<>
+        <Navigation/>
+        <Home/>
+    </>)
 }
 
 
