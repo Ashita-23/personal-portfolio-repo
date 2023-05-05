@@ -34,7 +34,7 @@ ul {
     flex-direction: row;
     flex-wrap: nowrap;
     list-style-type: none;
-    border: 1px solid #04d1f5;
+    /* border: 1px solid #04d1f5; */
     padding: 0.5rem;
     border-radius: 25px;
     backdrop-filter: blur(25px);
