@@ -21,7 +21,7 @@ const Navigation = () => {
         {/* <div className="logo-box">Ashita</div> */}
         <ul className="">
             <li><i className="fa-solid fa-house-user"></i></li>
-            <li><i className="fa-regular fa-user"></i></li>
+            <li><i className="fa-solid fa-circle-info"></i></li>
             <li><i className="fa-solid fa-code"></i></li>
             <li><i className="fa-regular fa-folder-open"></i></li>
             <li><i className="fa-regular fa-paper-plane"></i></li>

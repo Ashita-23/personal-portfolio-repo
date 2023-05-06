@@ -44,7 +44,8 @@ ul {
 ul li{
     font-size: 1.5rem;
     padding: 0.5rem 1rem;
-    color: #04d1f5;
+    /* color: #1148CC; */
+    color: #88a8ff;
 }
 
 .Dark-light-mode{
