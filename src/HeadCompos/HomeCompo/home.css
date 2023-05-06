@@ -2,13 +2,15 @@
     margin-top: -63px;
     /* border: 1px solid red; */
     height: 100vh;
-    width: 100vw;
+    width: 99vw;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center ;
-    background-color:  #303952;
+    /* background-color:  #101426; */
+    background-color:  #14192F;
+    
 }
 
 .intro-box{
@@ -24,6 +26,8 @@
 border: 1px solid transparent;
 border-radius: 15px;
 backdrop-filter: blur(25px);
+box-shadow: rgb(50, 58, 133) 0px 1px 2px 0px, rgb(40, 45, 114) 0px 2px 6px 2px;
+
 
 }
 
@@ -43,12 +47,12 @@ justify-content: center ;
 .name-text{
 /* border: 1px solid blue; */
   margin-bottom: 0.4rem;
-    font-size: 2rem;
+    font-size: 2.1rem;
     color: rgb(253, 253, 253);
     text-align: center;
 }
 .first-text{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: rgb(43, 133, 252);
     /* display: none; */
 }
