@@ -11,10 +11,26 @@
     background-color:  #303952;
 }
 
-.intro-outer{
-border: 1px solid blue;
-height: 30rem;
-width: 50rem;
+.intro-box{
+    padding: 0.5rem;
+    height: 50vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #88a8ff;
+border: 1px solid transparent;
+border-radius: 15px;
+backdrop-filter: blur(25px);
+
+}
+
+.intro-note{
+/* border: 1px solid blue; */
+height: 20rem;
+width: 40rem;
 /* padding: 2rem; */
 display: flex;
 flex-direction: column;
@@ -25,16 +41,20 @@ justify-content: center ;
 
 
 .name-text{
+/* border: 1px solid blue; */
+  margin-bottom: 0.4rem;
     font-size: 2rem;
     color: rgb(253, 253, 253);
     text-align: center;
 }
 .first-text{
     font-size: 1.4rem;
-    color: rgb(65, 144, 248);
+    color: rgb(43, 133, 252);
     /* display: none; */
 }
 .title-text-box{
+  /* margin-bottom: 0.2rem; */
+
     /* border: 1px solid rgb(138, 135, 135); */
     text-align: center;
 }
@@ -42,7 +62,7 @@ justify-content: center ;
 .sec-text{
     position: relative;
     font-size: 1.4rem;
-    color:#04d1f5;
+    color:#1148cc;
     padding: 0rem 0.2rem ;
     
 }
@@ -54,8 +74,8 @@ justify-content: center ;
     left: 0;
     height: 100%;
     width: 100%;
-    border-left: 2px solid #04d1f5;
-    background-color:#303952;
+    border-left: 2px solid #1148cc;
+    background-color:  #88a8ff;
     animation: textAnimation 5s steps(18) infinite;
 }
 @keyframes  textAnimation {
@@ -83,7 +103,7 @@ justify-content: center ;
 
     background-color: transparent;
    
-    color: rgb(3, 89, 202);
+    color: #00298a;
     /* padding: 0.1rem 0.4rem; */
 }
 
@@ -93,10 +113,23 @@ justify-content: center ;
     padding: 0.4rem 0.5rem;
     border: 1px solid transparent;
         border-radius: 5px;
-        box-shadow: #04d1f5 0px 1px 4px 0px;
-    transition: 1s; }
+      
+    transition: 0.6s; }
+
+    a:active{
+        color: #0336ac;
+    }
+    a:visited{
+        color: #0336ac;
+    }
 
         .home-btns:hover{
             box-shadow: none;
             /* border: 1px solid #04d1f5; */
+            /* box-shadow: #04d1f5 0px 1px 4px 0px; */
+            box-shadow: #0c3baa 0px 1px 2px;
+        }
+
+        .home-img{
+            height: 25rem ;
         }
