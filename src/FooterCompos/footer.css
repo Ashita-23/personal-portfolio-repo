@@ -2,9 +2,9 @@
 
 .footer-text-box{
     border-top: 1px solid  #12161f;
-    background-color:#303952;
+    background-color: #14192F;;
     height: 5vh;
-    width: 100vw;
+    width: 99vw;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -12,8 +12,9 @@
     justify-content: center;
 }
 .footer-text-box span {
-    color: white;
-    /* color: #0652DD; */
+    /* color: white; */
+    color:#88A8FF;
+
 }
 .heart-icone{
     font-size: 1.2rem;
