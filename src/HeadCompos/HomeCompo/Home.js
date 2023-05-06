@@ -1,5 +1,6 @@
-import {useEffect , useState} from "react" 
+import React from "react" 
 import "./home.css"
+import homeImg from "../../Assets/Compo_images/home_img.png"
 
 const Home = () =>{
 
@@ -9,13 +10,21 @@ const Home = () =>{
 
     return(<>
         <div className="home-outer">
-        <div className="intro-outer">
+        <div className="intro-box">
+        <div className="intro-note">
             <h1 className="name-text"><span className="first-text">Hello ,</span> I am Ashita </h1>
             <p className="title-text-box"><span className="sec-text">{ "Frontend Developer" }</span></p>
             <div className="home-btn-group">
-            <button className="home-btn"><i className="fa-brands fa-github home-btns"></i></button> {" "}<button className="home-btn"><i class="fa-brands fa-linkedin-in home-btns"></i></button>
-
+            <button className="home-btn">
+           <a href="https://github.com/Ashita-23" target="blank"><i className="fa-brands fa-github home-btns"></i></a></button> {" "}
+            <button className="home-btn">
+           <a href="https://www.linkedin.com/in/ashita-k-0bb800248/" target="blank"> <i class="fa-brands fa-linkedin-in home-btns"></i></a></button>
             </div>
+            </div>
+            <div className="intro-image">
+                <figure><img src={homeImg} alt="homeImg" className="home-img"/></figure>
+            </div>
+          
             </div>
         </div>
         {/* <a href="https://storyset.com/online">Online illustrations by Storyset</a> */}
