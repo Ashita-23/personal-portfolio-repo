@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client"
 import "/index.css"
 import Navigation from "./src/HeadCompos/NavCompo/Navigation"
 import Home from "./src/HeadCompos/HomeCompo/Home"
+import AboutMe from "./src/BodyCompos/AboutCompos/About"
 import SkillCounter from "./src/BodyCompos/SkillCompos/SkillCounter"
 import Footer from "./src/FooterCompos/Footer"
 
@@ -10,6 +11,7 @@ const App = () =>{
     return(<>
         <Navigation/>
         <Home/>
+        <AboutMe/>
         <SkillCounter/>
         <Footer/>
     </>)
