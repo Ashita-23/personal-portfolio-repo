@@ -10,20 +10,26 @@
     margin: 1rem;
 }
 
-.card-img-box{
-    height: 10vh;
-    width: 10vw;
-    border: 1px solid black;
-  
+.logo-outer{
+
 }
 
-.skill-img{
-    height: 10vh;
-    width: 10vw;
+.logo-img{
+
 }
 
-
-.skill-name{
+.card-text-box{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.title{
     font-size: 1.3rem;
     font-weight: bold;
+}
+
+.skill-loading{
+
 }

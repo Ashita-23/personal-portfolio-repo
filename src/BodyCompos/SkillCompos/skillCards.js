@@ -5,12 +5,14 @@ const SkillCards = ({skillProp})=>{
     console.log(skillProp)
   
     return(<>
-<div className="card-outer">
-<figure className="card-img-box">
-    <img className="skill-img" src={""} alt="" />
-</figure>
-<figcaption className="skill-name"><a href="#skillName">{"name"}</a></figcaption>
-</div>
+   <div className="card-outer">
+   <figuer className="logo-outer">
+   <img  className="logo-img"/></figuer>
+   <div className="card-text-box">
+    <span className="title">Name</span>
+    <span className="skill-loading">Loading</span>
+   </div>  
+   </div>
     </>)
 }
 
