@@ -1,5 +1,6 @@
 import "./skillCounter.css";
 import SkillCards from "./skillCards";
+import hashtagImg  from "../../Assets/Compo_images/hashTag.png"
 import { skillsName } from "../../Assets/Skill_Assets/utils";
 
 const SkillCounter = () => {
@@ -7,9 +8,23 @@ const SkillCounter = () => {
   return (
     <>
       <div className="skill-counter">
-        <h1 className="skill-heading">Skill</h1>
+        {/* <h1 ">Skill</h1> */}
+        <div className="skill-inner-box">
         <div className="skill-display">
-          <SkillCards skillProp={skillsName} />
+
+
+         {
+          skillsName.map((cards) => {
+            return(<>
+          <SkillCards skillProp={cards} /></>)
+          })
+         }
+        
+        </div>
+        <div className="hash-img-outer">
+        <figcaption className="skill-heading" >My Skills </figcaption>
+        <figure className="hash-img-inner"><img src={hashtagImg} alt="skillImage" className="hashImage" /></figure>
+        </div>
         </div>
       </div>
     </>
