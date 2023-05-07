@@ -49,11 +49,20 @@ ul li{
 }
 
 .Dark-light-mode{
- padding: 0.2rem 1rem;
+ padding: 0.6rem 0.8rem;
+ /* border: 1px solid rgb(250, 250, 252); */
+ border-radius: 50px;
+ box-shadow: rgb(197, 195, 195) 0px 0.5px 4px 0px;
 }
-.DLM-img{
-    height: 40px;
-    width: 40px;
+.DM-img{
+   font-size: 1.4rem;
+   color: #88a8ff;
+
+}
+.LM-img{
+   font-size: 1.4rem;
+   color: #88a8ff;
+
 }
 .DLM-btn{
     border: none;

@@ -27,9 +27,9 @@ const Navigation = () => {
             <li><i className="fa-regular fa-paper-plane"></i></li>
             </ul>
         <div className="Dark-light-mode">
-           <button className="DLM-btn" onClick={()=>DarkLightMode()}>{LightMode?<img src={SunImg } alt="" className="DLM-img" />:<img src={HalfMoon} alt="" className="DLM-img" />}</button>
+           <button className="DLM-btn" onClick={()=>DarkLightMode()}>{LightMode?<i className="fa-solid fa-lightbulb DM-img"></i>: <i className="fa-regular fa-lightbulb LM-img"></i>}</button>
         </div>
-       
+    
      </nav>
     </>)
 }
