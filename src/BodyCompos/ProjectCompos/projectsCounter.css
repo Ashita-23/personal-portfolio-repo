@@ -8,6 +8,7 @@
  align-items: center;
  background-color: #14192f;
  border: 1px solid red;
+ padding: 2rem 0rem;
 }
 
 
@@ -15,15 +16,16 @@
     font-size: 2rem;
     color: white;
     font-weight: 500;
+    padding-bottom: 1.5rem ;
 }
 
 .project-display{
     height: auto;
-    width: 60vw;
+    width: 40vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* align-items: center; */
+    align-items: center;
     /* background-color: #14192f; */
     border: 1px solid red;
 }

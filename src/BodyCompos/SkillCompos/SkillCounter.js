@@ -15,8 +15,10 @@ const SkillCounter = () => {
 
          {
           skillsName.map((cards) => {
+  {/* console.log(cards) */}
+
             return(<>
-          <SkillCards skillProp={cards} /></>)
+          <SkillCards skillProp={cards} key={cards.id} /></>)
           })
          }
         
