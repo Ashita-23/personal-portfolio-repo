@@ -1,15 +1,22 @@
 import React from "react" 
 import "./home.css"
 import homeImg from "../../Assets/Compo_images/home_img.png"
+import useStatus from "../../AppUtils/UserStatus"
+// import BG_Animation from "../../Assets/Animation/BG_Animaton"
 
 const Home = () =>{
 
+    const IsOnline = useStatus()
 
 
 
 
-    return(<>
-        <div className="home-outer">
+    if (!IsOnline  ){
+        return <h1>your network coneaction is gone .....</h1>
+    }
+    return (<>
+        <div className="home-outer" id="Home">
+        {/* <BG_Animation></BG_Animation> */}
         <div className="intro-box">
         <div className="intro-note">
             <h1 className="name-text"><span className="first-text">Hello ,</span> I am Ashita </h1>
