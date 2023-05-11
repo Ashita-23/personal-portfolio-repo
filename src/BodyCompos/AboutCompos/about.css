@@ -1,7 +1,8 @@
 .about-outer {
   height: 99vh;
   width: 99vw;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  /* background-color: white; */
   background-color: #14192f;
   display: flex;
   flex-direction: row;
@@ -12,13 +13,15 @@
 
 .about-inner {
   height: 50vh;
-  width: 60vw;
+  width: 63vw;
   border: 1px solid #3B4053;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-around;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .about-image-box {
@@ -47,6 +50,7 @@
   /* border: 1px solid white; */
   color: white;
   padding: 0.1rem 0.5rem;
+  z-index: 1;
 }
 .about-title {
     color: #615add;
@@ -60,4 +64,30 @@
 .about-text {
    
     color: #88A8FF;
+}
+
+.resume-btn{
+  /* border: 2px solid  transparent; */
+  border: 2px solid  #6158e2;
+  outline: none;
+  border-radius: 15px;
+  /* background-color:  #3f389c; */
+  background-color:  transparent;
+
+  /* color: white; */
+  color:  #6158e2;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  font-weight:600;
+  transition: .8s;
+  /* box-shadow: rgba(83, 83, 83, ) 0px 4px 12px; */
+  margin:  2rem 0rem;
+}
+
+.resume-btn:hover{
+  /* background-color:  transparent; */
+  background-color:  #6158e2;
+  border: 2px solid   #6158e2;
+  color: white;
+  font-weight:400;
 }
