@@ -9,7 +9,7 @@ const ProjectCards = ({ProjectHelper}) =>{
   <img src={ProjectHelper[0].imgs} className="pro-img" />
     {/* </figure> */}
     <div className="pro-deatil-box">
-        <span className="heading">{ProjectHelper[0].name}</span>
+        <span className="project-name">{ProjectHelper[0].name}</span>
         <span className="discreption">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quasi, magni molestiae debitis odio natus!</span>
         <div className="pro-btn-group">
         <span className="link-btn"><a><i className="fa-solid fa-link"></i></a></span>
@@ -17,6 +17,7 @@ const ProjectCards = ({ProjectHelper}) =>{
         </div>
     </div>
   </div>
+  
     </>)
 }
 
