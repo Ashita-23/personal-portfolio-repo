@@ -7,7 +7,7 @@ const SkillCounter = () => {
   // console.log(skillsName)
   return (
     <>
-      <div className="skill-counter">
+      <div className="skill-counter" id="skills">
         {/* <h1 ">Skill</h1> */}
         <div className="skill-inner-box">
         <div className="skill-display">
