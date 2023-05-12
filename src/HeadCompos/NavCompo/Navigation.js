@@ -1,8 +1,7 @@
 import { useState } from "react"
 import "./navigation.css"
-import SunImg from "../../Assets/Compo_images/sun.png"
-import HalfMoon from "../../Assets/Compo_images/half-moon.png"
-import BG_Animation from "../../Assets/Animation/BG_Animaton"
+
+// import BG_Animation from "../../Assets/Animation/BG_Animaton"
 import { useState } from "react"
 const Navigation = () => {
 
@@ -20,12 +19,13 @@ const Navigation = () => {
     return(<>
      <nav className="nav-outer">
         {/* <div className="logo-box">Ashita</div> */}
-        <BG_Animation/>
+        {/* <BG_Animation/> */}
         <ul className="">
             <li><a href="#Home"><i className="fa-solid fa-house-user"></i></a></li>
             <li><a href="#about"><i className="fa-solid fa-circle-info"></i></a></li>
             <li><a href="#skills"><i className="fa-solid fa-code"></i></a></li>
             <li><a href="#project"><i className="fa-regular fa-folder-open"></i></a></li>
+            <li><a href="#contact"><i className="fa-regular fa-envelope"></i></a></li>
             <li><a href="#footer"><i className="fa-regular fa-paper-plane"></i></a></li>
             </ul>
         <div className="Dark-light-mode">
