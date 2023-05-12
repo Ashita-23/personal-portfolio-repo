@@ -12,8 +12,8 @@ const ProjectCards = ({ProjectHelper}) =>{
         <span className="project-name">{ProjectHelper[0].name}</span>
         <span className="discreption">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quasi, magni molestiae debitis odio natus!</span>
         <div className="pro-btn-group">
-        <span className="link-btn"><a><i className="fa-solid fa-link"></i></a></span>
-        <span className="link-btn"><a><i className="fa-brands fa-github"></i></a></span>
+        <span className="link-btn"><a href="https://github.com/Ashita-23/Swiggy_Clone_Repo" title="view code" target="blank"><i className="fa-solid fa-link"></i></a></span>
+        <span className="link-btn"><a href="https://github.com/Ashita-23/Swiggy_Clone_Repo" title="view code" target="blank"><i className="fa-brands fa-github"></i></a></span>
         </div>
     </div>
   </div>
